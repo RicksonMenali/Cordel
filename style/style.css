@@ -1,11 +1,25 @@
-@charset "utf8";
-*{
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root {
+    --f1: Verdana, Geneva, Tahoma, sans-serif;
+    --f2: 'Abel', sans-serif;
+    --f3: 'Indie Flower', cursive;
+    
+
+
+}
+*{ 
+    
     margin: 0px;
     padding: 0px;
 }
 
 html, body {
-    background-color: rgb(219, 215, 215);
+    background-color: rgb(0, 0, 0);
     min-height: 100vh;
 }
 header  {
@@ -16,24 +30,57 @@ header  {
 header h1 {
     padding-top: 50px ;
     font-variant: small-caps;
+    font-family: var(--f2);
+    font-size: 6vw;
 }
 header p {
     padding-bottom: 50px ;
 }
 section {
-    padding: 7vh 7vh 0vh 30px
+    padding: 7vh 7vh 0vh 30px;
+    font-family: var(--f3);
+    font-size: 3vw;
+    text-align: center;
+
+    padding-bottom: 2em;
+    
 }
 section.n {
     background-color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.322);
+    background-image: url(../imagens/PAPER1.jpg);
+    background-size: cover;
+    border-radius: 0px 10px 10px 10px;
+    
 }
 section.i {
-    background-color: rgb(128, 142, 155);
+    background-color: rgba(0, 0, 0, 0.178);
+    box-shadow: inset 6px 6px 13px 0px black;
+    border-radius: -10px;
+    background-attachment: fixed;
 }  
 section.i p {
-    background-color: rgba(0, 0, 0, 0.151);
+    background-color: rgba(0, 0, 0, 0.164);
     color: white;
-    width: 250px;
 
+    display: inline-block;
+    padding: 10px;
+    border-radius: 0px 10px 10px 10px;
+    text-shadow: 4px 4px 7px black;
+
+}
+section#i1 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+
+}
+section#i2 {
+    background-image: url(../imagens/background002.jpg);
+
+}
+section#i3 {
+    background-image: url(../imagens/R.jpeg) ;
+    background-position: right center;
 }
 a { 
     color: white;
