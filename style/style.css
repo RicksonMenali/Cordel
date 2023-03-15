@@ -39,7 +39,7 @@ header p {
 section {
     padding: 7vh 7vh 0vh 30px;
     font-family: var(--f3);
-    font-size: 3vw;
+    font-size: 3.7vw;
     text-align: center;
 
     padding-bottom: 2em;
@@ -97,8 +97,9 @@ a:hover {
 
 
 footer {
-    background-image: linear-gradient(to left, black, rgb(66, 66, 65));
+    background-image: linear-gradient(to right, black, rgb(66, 66, 65));
     text-align: center;
     padding: 10px;
     color: white;
+    font-size: 2.5vw;
 }
